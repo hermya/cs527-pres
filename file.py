@@ -10,7 +10,10 @@ my_cache.appendleft(-1)
 my_cache.appendleft(-2) 
 my_cache.appendleft(-3)
 
-print(my_cache)
+for ele in my_cache:
+    print(ele, end =" -> ")
+
+print(" null ")
 
 my_cache = myDeque()
 my_cache.addRight(Node(1))
