@@ -1,5 +1,5 @@
 from collections import deque
-from my_collections.my_deque import Deque as myDeque
+from my_collections.my_deque import Deque as myDeque, Node
 my_cache = deque()
 
 my_cache.append(1)
