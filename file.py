@@ -20,8 +20,8 @@ my_cache.addRight(Node(1))
 my_cache.addRight(Node(2))
 my_cache.addRight(Node(3))
 
-my_cache.addLeft(Node(1))
-my_cache.addLeft(Node(2))
-my_cache.addLeft(Node(3))
+my_cache.addLeft(Node(-2))
+my_cache.addLeft(Node(-4))
+my_cache.addLeft(Node(-6))
 
 my_cache.print()
